@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+   
+    color: white;
+    
+    background-color: gainsboro;
+    min-height: 100vh;
+}
+h1{
+    color: black;
+    font-weight: 100;
+    margin: 1rem
+
+}
+#inputtask{
+    background-color:azure ;
+    border-radius:1rem ;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 300px;
+}
+.addtask{
+    color: rgb(190, 14, 43);
+    width: 100px;
+    margin: 50px 0 0 0;
+}
+.addBtn{
+    color: yellow;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background-color: black;
+    font-size: 18px;
+transition: 0.25s;
+}
